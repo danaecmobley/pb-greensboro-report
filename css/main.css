@@ -1,4 +1,62 @@
-/*Navigation*/
+/*===================================
+TYPOGRAPHY
+===================================*/
+h1 {
+    font-family: "brandon-grotesque";
+    font-size: 3.0em;
+    color:#336e94;
+    line-height: 0.7;
+    padding-bottom: 30px;
+    margin-top: -4px;
+}
+
+h2 {
+    font-family: "brandon-grotesque";
+    font-size: 1.5em;
+    color:#336e94;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "brandon-grotesque";
+    height:30px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color:#336e94;
+    background-color:#e6eef2;
+    padding: 5px 0px 0px 15px;
+}
+
+h4 {
+    font-family: "brandon-grotesque";
+    font-size: 1.5em;
+    color:#336e94;
+}
+
+h5 {
+    font-family: "brandon-grotesque";
+    font-size: 1.3em;
+    color:#000;
+    padding-bottom: 10px;
+}
+
+h6 {
+    font-family: "brandon-grotesque";
+    font-size: 1.1em;
+    color:#fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-family: "brandon-grotesque";
+    font-size: 1.1em;
+    color:#000;
+}
+
+/*======================================
+NAVIGATION
+======================================*/
 .container-fluid {
 	background-color: #e6eef2;
 	text-transform: uppercase;
@@ -11,27 +69,79 @@
 
 /*Filter Top Section*/
 .filter{
-	margin-left: 50px;
 	margin-top: 50px;
+    margin-left: 25px;
 }
 
-h2 {
-    font-family: "brandon-grotesque";
-    font-size: 1.5em;
-    color:#336e94;
-    text-transform: uppercase;
+/*======================================
+INDEX PAGE
+======================================*/
+
+.nonav {
+    background-color: #fff;
+    height: 40px;
 }
 
-h1 {
-    font-family: "brandon-grotesque";
-    font-size: 3.5em;
-    color:#336e94;
-    line-height: 0.7;
-    padding-bottom: 30px;
+.gboro-white-logo {
+    max-height: 35px;
+    float: right;
+    margin-top: 10px;
 }
 
+.intro-page {
+    background-image: url("../images/pb-landing-background.png");
+    background-size:cover;
+    height: 575px;
+    margin-top: -20px;
+}
+
+.intro-row{
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+#intro-header-1 {
+    color:#a8fe7d;
+    font-family: "proxima-nova";
+    font-weight: 400;
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+
+#intro-header-2 {
+    color:#fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+.intro-box{
+    border: 3px solid #fff;
+    height: 45px;
+    margin-right: 5%;
+}
+
+.intro-caption{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*======================================
+SUMMARY PAGE
+======================================*/
+.grey-box {
+    background-color: #ddd;
+    height:300px;
+    border: 2px solid white;
+    display:inline-block;
+    margin-bottom: 20px;
+}
+
+/*======================================
+IDEAS PAGE
+======================================*/
 #cardbox{
-    margin: 75px 50px 0px 50px; 
+    margin: 35px 50px 0px 50px; 
 }
 
 .cards {
@@ -48,34 +158,6 @@ h1 {
 
 .card-info {
     font-style: italic;
-}
-
-h3 {
-    font-family: "brandon-grotesque";
-    height:30px;
-    font-size: 1.2em;
-    text-transform: uppercase;
-    color:#336e94;
-    background-color:#e6eef2;
-    padding: 5px 0px 0px 15px;
-}
-h4 {
-    font-family: "brandon-grotesque";
-    font-size: 1.5em;
-    color:#336e94;
-}
-
-h5 {
-    font-family: "brandon-grotesque";
-    font-size: 1.3em;
-    color:#000;
-    padding-bottom: 10px;
-}
-
-p {
-    font-family: "brandon-grotesque";
-    font-size: 1.1em;
-    color:#000;
 }
 
 .card-info span{
